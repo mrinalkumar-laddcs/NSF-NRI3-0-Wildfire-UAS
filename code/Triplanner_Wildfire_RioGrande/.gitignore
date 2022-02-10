@@ -1,0 +1,10 @@
+# MATLAB autosave files
+*.asv
+
+# Video Files
+*.avi
+*.gif
+
+# Image Files
+*.png
+*.jpg
