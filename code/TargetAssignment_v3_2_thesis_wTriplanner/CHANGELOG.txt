@@ -1,0 +1,59 @@
+Future v3.2:
+- Gif Animation
+- Cummulative Conflict
+- Speed up GuessDistPathGrid
+- Guess Path Algorithms and compare time savings
+    - Try Dijkstra
+- Guess Path Class
+
+- Record and Replay (could be major change)
+- Seperate out:
+    - Simulation
+    - Figure Gen
+    - Replay (pending)
+- Conflict retention (major change)
+
+
+Date: 05/04/2020
+Target Assignment Problem v3.2:
+- Test Guess Path
+- Guess Path Algorithms and compare time savings
+- Code Restructuring
+- Heat Map Include in Simulation
+- Integration of Guess in the code which tracking trajectories
+- Update Agent Class
+    - accept path
+    - trajectories
+- Energy - update Pair Matching and Agent Class
+- Update figure to include Heat Map
+- Merge Domain into Environment Variable argument
+- Debugging of error if the conflict point lies inside no-fly zone
+- Agent self triggers Return to Home and then requests path
+- Battery Reset conditions updated
+
+
+Date: 05/04/2020
+Target Assignment Problem v3.1:
+- with return constraints
+- also includes battery restoration upon return
+- Agent and Conflict Point Class
+- Replaced the notion of Distance with Energy. The calculation still uses distance.
+- Update conflict points in Figure to Scatter Points
+- Choice of Conflict points from Toy problem or Taos Wildfire Simulation
+
+Date: 05/01/2020
+Target Assignment Problem v3.0:
+- with return constraints
+- also includes battery restoration upon return
+- Uses Conflict Points and Domain from Taos Wildfire Simulation
+
+Date: 05/01/2020
+Target Assignment Problem v2.0:
+- with return constraints
+- also includes battery restoration upon return
+- Toy Problem: Uses randomly generated conflict points in the specified domain
+
+Date: 04/30/2020
+Target Assignment Problem:
+- without return constraints
+- Toy Problem: Uses randomly generated conflict points in the specified domain
